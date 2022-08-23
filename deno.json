@@ -1,0 +1,23 @@
+{
+	"fmt": {
+		"options": {
+			"useTabs": true,
+			"singleQuote": true
+		}
+	},
+	"lint": {
+		"rules": {
+			"tags": ["recommended"],
+			"include": [
+				"ban-untagged-todo",
+				"camelcase",
+				"default-param-last",
+				"eqeqeq",
+				"explicit-function-return-type",
+				"explicit-module-boundary-types",
+				"no-eval",
+				"no-non-null-asserted-optional-chain"
+			]
+		}
+	}
+}
