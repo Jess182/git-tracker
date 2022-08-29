@@ -4,8 +4,6 @@ import {
 	assertRejects,
 } from 'https://deno.land/std/testing/asserts.ts';
 import { _internals, gitTracker } from './mod.ts';
-import { Gitlab } from './_src/gitlab.ts';
-import { assertThrows } from 'https://deno.land/std@0.152.0/testing/asserts.ts';
 
 const GIT_TRACKER_OPTIONS = {
 	platform: 'gitlab',
