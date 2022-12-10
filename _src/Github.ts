@@ -1,5 +1,5 @@
 import { encode } from 'https://deno.land/std/encoding/base64.ts';
-import { GitPlatform } from './gitPlatform.ts';
+import { GitPlatform } from './GitPlatform.ts';
 import { IOptions } from './types.ts';
 import { info } from './logs.ts';
 

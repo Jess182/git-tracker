@@ -1,4 +1,4 @@
-import { GitPlatform } from './gitPlatform.ts';
+import { GitPlatform } from './GitPlatform.ts';
 import { IOptions } from './types.ts';
 import { info, warn } from './logs.ts';
 
