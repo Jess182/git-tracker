@@ -1,8 +1,8 @@
-import { cyanPrompt, error } from './_src/logs.ts';
-import { IOptions } from './_src/types.ts';
-import { GitPlatform } from './_src/gitPlatform.ts';
-import { Gitlab } from './_src/gitlab.ts';
-import { Github } from './_src/github.ts';
+import { cyanPrompt, error } from './src/logs.ts';
+import { IOptions } from './src/types.ts';
+import { GitPlatform } from './src/gitPlatform.ts';
+import { Gitlab } from './src/gitlab.ts';
+import { Github } from './src/github.ts';
 
 const DEFAULT_EVENTS: Record<string, string> = {
 	gitlab: 'pushed',
